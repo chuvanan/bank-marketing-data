@@ -1,6 +1,7 @@
 
+# Bank Marketing Dataset
 
-# Description
+## Description
 
 The data is related with direct marketing campaigns of a Portuguese banking
 institution. The marketing campaigns were based on phone calls. Often, more than
@@ -30,19 +31,25 @@ The classification goal is to predict if the client will subscribe (yes/no) a
 term deposit (variable y).
 
 
-# Attribute information
+## Attribute information
 
-## Input variables:
+### Input variables:
 
 * bank client data:
 
-1 - age (numeric)
-2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
-3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
-4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
-5 - default: has credit in default? (categorical: 'no','yes','unknown')
-6 - housing: has housing loan? (categorical: 'no','yes','unknown')
-7 - loan: has personal loan? (categorical: 'no','yes','unknown')
+    1. age (numeric)
+
+    2. job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+
+    3. marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+
+    4. education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
+
+    5. default: has credit in default? (categorical: 'no','yes','unknown')
+
+    6. housing: has housing loan? (categorical: 'no','yes','unknown')
+
+    7. loan: has personal loan? (categorical: 'no','yes','unknown')
 
 * related with the last contact of the current campaign:
 
@@ -66,11 +73,11 @@ term deposit (variable y).
 19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
 20 - nr.employed: number of employees - quarterly indicator (numeric)
 
-## Output variable (desired target):
+### Output variable (desired target):
 
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 
-# Source
+## Source
 
 * [UCI Machine Learning Repository - Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#)
