@@ -69,3 +69,8 @@ term deposit (variable y).
 ## Output variable (desired target):
 
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
+
+
+# Source
+
+* [UCI Machine Learning Repository - Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing#)
